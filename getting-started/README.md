@@ -15,7 +15,7 @@ If you are deploying it on AWS, select a VM instance from R7iz or m7i family of 
 
 
 ### IBM Cloud
-If you are deploying it on IBM cloud, select a virtual server from 3-series instance with base OS as Ubuntu 22.04 under Public Catalog Images
+If you are deploying it on IBM cloud, select a virtual server from 3-series instance with base OS as Ubuntu 22.04 under Public Catalog Images. For more information on virtual servers on IBM cloud visit [Intel® solutions on IBM Cloud®](https://www.ibm.com/cloud/intel)
 
 Use the command below to install docker on a clean machine selected from any of the above cloud service providers
 
