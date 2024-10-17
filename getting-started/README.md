@@ -8,7 +8,17 @@ To get started with OPEA you need the right hardware and basic software setup.
 
 - Software Requirements: Refer to the [Support Matrix](https://github.com/opea-project/GenAIExamples/blob/main/README.md#getting-started) to ensure you have the required software components in place.
 
-Note : If you are deploying it on cloud, say AWS, select a VM instance from R7iz or m7i family of instances with base OS as Ubuntu 22.04 (AWS ami id : ami-05134c8ef96964280). Use the command below to install docker on a clean machine.
+## Deploying on Cloud
+
+### AWS
+If you are deploying it on AWS, select a VM instance from R7iz or m7i family of instances with base OS as Ubuntu 22.04 (AWS ami id : ami-05134c8ef96964280). 
+
+
+### IBM Cloud
+If you are deploying it on IBM cloud, select a virtual server from 3-series instance with base OS as Ubuntu 22.04 under Public Catalog Images
+
+Use the command below to install docker on a clean machine selected from any of the above cloud service providers
+
 ```
 wget https://raw.githubusercontent.com/opea-project/GenAIExamples/refs/heads/main/ChatQnA/docker_compose/install_docker.sh
 chmod +x install_docker.sh
